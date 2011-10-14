@@ -1,0 +1,9 @@
+{ "run_list": [
+                "recipe[build-essential::default]",
+                "recipe[rvm::system]",
+                "recipe[apache2::default]",
+                "recipe[passenger_apache2::default]",
+                "recipe[passenger_apache2::mod_rails]",
+                "recipe[rails_app::default]",
+                "recipe[postgresql::server]"
+              ] }

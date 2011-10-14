@@ -1,0 +1,14 @@
+Installs
+  - rvm (global)
+  - apache2
+  - passenger
+  - postgresql
+
+
+### Usage
+
+  - bundle install
+  - knife prepare user@<IP>
+  - copy runlist content from dummy_runlist.json into nodes/<IP>.json
+  - prepare your future rails app in cookbooks/rails_app/recipes/default.rb
+  - knife cook user@<IP>
