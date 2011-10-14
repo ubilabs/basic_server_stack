@@ -12,3 +12,5 @@ Installs
   - copy runlist content from dummy_runlist.json into nodes/<IP>.json
   - prepare your future rails app in cookbooks/rails_app/recipes/default.rb
   - knife cook user@<IP>
+
+For more configs read the specific cookbook readme
