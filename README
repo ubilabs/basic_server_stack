@@ -4,6 +4,9 @@ Installs
   - passenger
   - postgresql
 
+### Needed Gems
+
+knife-solo (https://github.com/matschaffer/knife-solo)
 
 ### Usage
 
